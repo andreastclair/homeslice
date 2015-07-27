@@ -1,0 +1,81 @@
+// =============================
+// Media-Mid 640px
+// =============================
+
+@media screen and (min-width: 40em) {
+  .row { 
+    overflow: hidden;
+}
+    .col6 {
+      @include grid(8);
+      margin-bottom: 40px;
+      }
+    
+    div:last-child {
+      margin-right: 0;
+      }
+  
+	
+// =============================
+// Typography
+// =============================	
+
+h1 {
+	font-size: 5rem;}
+
+h3 {
+	font-size: 2.5rem;
+}
+
+// =============================
+// Menu
+// =============================
+
+.pizza-toss {
+	height: 250px;
+	background-position: 0 30%;
+}
+
+.byo {
+	margin-bottom: 0;
+}
+
+// =============================
+// Home
+// =============================
+
+.front {
+	height: 350px;
+}
+
+section {
+	max-width: 80%;
+}
+
+// =============================
+// Contact
+// =============================
+
+.contact-page {
+	.contact-info {
+		h3 {
+			font-size: 2rem;
+		}
+		.address-pie-face {
+			.address, .pie-face {
+				margin-left: 20px;
+				h4 {
+					font-size: 1.2rem;
+				}
+			}
+			.pie-face {
+				width: 100px;
+				margin-left: 30px;
+			}
+		}
+	}	
+}	
+
+
+}
+

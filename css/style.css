@@ -1,0 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+  padding-top: 1.5em; }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  overflow: hidden; }
+
+.nav-collapse li {
+  margin-bottom: .5em;
+  float: right;
+  text-align: right;
+  margin-right: 2%; }
+
+.nav-collapse a {
+  color: #f6f4f4;
+  text-decoration: none; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+  padding: 10px 2%;
+  text-decoration: none; }
+
+.nav-toggle span {
+  color: #f6f4f4;
+  font-size: 1.15em;
+  float: right;
+  font-style: normal; }
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none;
+    padding-top: 0; }
+
+  .nav-toggle {
+    display: none; } }
+.row {
+  margin: 0 auto;
+  overflow: hidden; }
+
+.col1, .col2, .col3, .col6 {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  font-family: sans-serif; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+img {
+  width: 100%; }
+
+.clear-fix {
+  clear: both; }
+
+body {
+  font-family: "adelle",serif;
+  background: #f6f4f4; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  color: #dc0606;
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #ffe505;
+  padding-left: 5%;
+  padding-top: 50px; }
+
+h2 {
+  color: #ffe505;
+  font-size: 1rem;
+  padding-left: 5%;
+  background-color: rgba(55, 55, 55, 0.5);
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+h3 {
+  color: #dc0606;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0; }
+
+h4 {
+  color: #373737;
+  font-size: 1rem;
+  font-family: "adelle",serif;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 5px; }
+
+h5 {
+  color: #373737;
+  font-size: 1rem;
+  font-family: "franklin-gothic-urw",sans-serif;
+  font-weight: bold;
+  margin-top: 15px; }
+
+h6 {
+  color: #f6f4f4;
+  font-size: 0.875rem;
+  font-family: "franklin-gothic-urw",sans-serif;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: normal; }
+
+p {
+  color: #373737;
+  font-family: "franklin-gothic-urw",sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.2rem; }
+
+.italic {
+  font-style: italic;
+  font-size: 0.7rem;
+  line-height: 1; }
+
+span {
+  font-style: italic;
+  font-size: 0.8rem;
+  line-height: 1;
+  font-weight: normal;
+  font-family: "franklin-gothic-urw",sans-serif; }
+
+.green {
+  color: #5d9a56;
+  font-family: "adelle",serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.2rem; }
+
+header {
+  background: #dc0606;
+  padding: 1em 2%; }
+  header img {
+    width: 30%;
+    display: block;
+    margin: 0 auto; }
+
+.pizza-toss {
+  width: 100%;
+  height: 200px;
+  background: url("../images/pizza-toss.jpg");
+  background-size: cover;
+  border-bottom: 10px solid #ffe505; }
+
+.borders {
+  width: 100%; }
+  .borders .red-border {
+    height: 4px;
+    background-color: #dc0606;
+    margin-top: 1px;
+    margin-bottom: 40px; }
+  .borders .yellow-border {
+    height: 10px;
+    background-color: #ffe505;
+    margin-top: 40px; }
+
+.byo {
+  margin-bottom: 40px; }
+
+footer div {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #dc0606;
+  text-align: center; }
+  footer div h6 {
+    display: inline; }
+
+.front {
+  width: 100%;
+  height: 250px;
+  background: url("../images/front-3.jpg");
+  background-size: cover; }
+
+.hours {
+  border-top: 5px solid #ffe505;
+  background-color: #373737;
+  width: 90%;
+  padding: 5%; }
+  .hours h3 {
+    margin-top: 0;
+    text-align: center;
+    font-weight: normal;
+    color: #f6f4f4; }
+  .hours h4 {
+    color: #f6f4f4;
+    font-weight: normal;
+    text-align: center; }
+
+section {
+  width: 90%;
+  margin: 40px auto; }
+
+.location, .location-more {
+  width: 100%;
+  padding: 15px;
+  background-color: #5d9a56; }
+  .location h4, .location-more h4 {
+    color: #f6f4f4;
+    font-weight: normal;
+    margin-bottom: 0;
+    text-align: center; }
+
+.location-more {
+  border-bottom: 5px solid #ffe505; }
+  .location-more h3 {
+    margin: 0 auto;
+    text-shadow: 1px 1px 0 #ffe505; }
+
+.contact-page {
+  width: 100%;
+  outline: 5px solid #ffe505;
+  border-top: 3px solid #dc0606;
+  border-bottom: 3px solid #dc0606;
+  margin: 0 auto; }
+  .contact-page .contact-info {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%; }
+    .contact-page .contact-info h3 {
+      color: #373737;
+      text-align: center; }
+    .contact-page .contact-info .address-pie-face {
+      margin: 50px auto;
+      max-width: 400px; }
+      .contact-page .contact-info .address-pie-face .address, .contact-page .contact-info .address-pie-face .pie-face {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 30px; }
+      .contact-page .contact-info .address-pie-face .pie-face {
+        width: 90px;
+        margin-left: 30px; }
+    .contact-page .contact-info .email-us {
+      margin: 20px auto;
+      border: 4px solid #dc0606;
+      border-radius: 10px;
+      padding: 2%;
+      max-width: 500px; }
+
+span.contact {
+  color: #5d9a56;
+  font-style: normal;
+  font-family: "adelle",serif;
+  font-size: 0.875rem; }
+
+.iframe {
+  margin-top: 2px;
+  border-bottom: 5px solid #ffe505; }
+
+@media screen and (min-width: 40em) {
+  .row {
+    overflow: hidden; }
+
+  .col6 {
+    width: 45.5%;
+    margin-right: 2.5%;
+    max-width: 100%;
+    margin-bottom: 40px; }
+
+  div:last-child {
+    margin-right: 0; }
+
+  h1 {
+    font-size: 5rem; }
+
+  h3 {
+    font-size: 2.5rem; }
+
+  .pizza-toss {
+    height: 250px;
+    background-position: 0 30%; }
+
+  .byo {
+    margin-bottom: 0; }
+
+  .front {
+    height: 350px; }
+
+  section {
+    max-width: 80%; }
+
+  .contact-page .contact-info h3 {
+    font-size: 2rem; }
+  .contact-page .contact-info .address-pie-face .address, .contact-page .contact-info .address-pie-face .pie-face {
+    margin-left: 20px; }
+    .contact-page .contact-info .address-pie-face .address h4, .contact-page .contact-info .address-pie-face .pie-face h4 {
+      font-size: 1.2rem; }
+  .contact-page .contact-info .address-pie-face .pie-face {
+    width: 100px;
+    margin-left: 30px; } }
+@media screen and (min-width: 1200px) {
+  .row {
+    overflow: hidden; }
+
+  .col6 {
+    width: 45.5%;
+    margin-right: 2.5%;
+    max-width: 100%; }
+
+  div:last-child {
+    margin-right: 0; }
+
+  h1 {
+    font-size: 7rem; }
+
+  h2 {
+    font-size: 2rem; }
+
+  .pizza-toss {
+    height: 350px;
+    outline: 2px solid #dc0606; }
+
+  .borders {
+    display: none; }
+
+  aside {
+    float: left;
+    margin-top: 30px; }
+
+  .specialty {
+    width: 55%; }
+
+  .byo {
+    width: 40%;
+    border: 5px solid #ffe505;
+    outline: 5px solid #dc0606;
+    border-radius: 10px;
+    padding: 2%;
+    float: left; }
+
+  .front {
+    height: 400px; }
+
+  section {
+    border: 4px solid #ffe505;
+    border-radius: 10px;
+    padding: 2%; }
+
+  .location, .location-more {
+    padding: 35px; }
+    .location h4, .location-more h4 {
+      font-size: 1.5rem; }
+
+  .contact-page .contact-info .address-pie-face .pie-face {
+    margin-left: 30px; } }
+
+/*# sourceMappingURL=style.css.map */
