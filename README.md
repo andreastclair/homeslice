@@ -7,16 +7,16 @@ This is a redesign for the website of local pizza spot, Homeslice. Homeslice is 
 3. Contact  
 
 Toolkit:
--Site maps
--Wordlists
--Wireframes
--Mockups
--Research
--HTML
--Sass
--Responsive nav
--Responsive web design
--Content Strategy
+-Site maps  
+-Wordlists  
+-Wireframes  
+-Mockups  
+-Research  
+-HTML  
+-Sass  
+-Responsive nav  
+-Responsive web design  
+-Content Strategy  
 
 
 
